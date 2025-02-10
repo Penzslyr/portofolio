@@ -83,43 +83,42 @@ function App() {
 
   const projects = [
     {
-      title: "Financial Management App",
+      title: "Marketplace App with Management system",
       description:
-        "A React Native application for financial tracking and management with secure authentication and real-time updates.",
+        "A marketplace app with management system, where user can buy and sell product, and user can manage their product.",
       image: "/path-to-project-image.jpg",
-      tech: ["React Native", "Redux", "Node.js", "MongoDB"],
+      tech: ["React Native", "Redux", "Node.js", "Tailwind"],
       links: {
-        github: "https://github.com/yourusername/project",
-        live: "https://project-demo.com",
+        github: "https://github.com/Penzslyr/SIB_React_005_FP2",
+        live: "#",
       },
     },
     {
-      title: "Employee Assessment Platform",
+      title: "Website News ",
       description:
-        "Full-stack web application featuring employee evaluation tools and comprehensive content management system.",
-      tech: ["React.js", "Express.js", "MongoDB", "Redux"],
+        "Website news where user can filter news by category, user can search news by title, and user can save news to favorite.",
+      tech: ["React.js", "Chakra UI", "Redux"],
       links: {
-        github: "#",
+        github: "https://github.com/Penzslyr/SIB_React_005_FP1",
         live: "#",
       },
     },
     {
       title: "Movie Discovery Platform",
-      description:
-        "Interactive movie search and discovery platform with advanced filtering and user recommendations.",
-      tech: ["React.js", "REST API", "Redux", "Styled Components"],
+      description: "Interactive movie search and discovery platform.",
+      tech: ["React.js", "Tailwind"],
       links: {
-        github: "#",
+        github: "https://github.com/Penzslyr/SIB_React_005_FP4",
         live: "#",
       },
     },
     {
       title: "Hotel Booking System",
       description:
-        "Comprehensive booking platform with real-time availability checking and secure payment integration.",
-      tech: ["React Native", "Node.js", "MongoDB", "Payment API"],
+        "Comprehensive booking platform with real-time availability checking, and saving availability hotel.",
+      tech: ["React Native", "Expo Go", "Tailwind"],
       links: {
-        github: "#",
+        github: "https://github.com/Penzslyr/SIB_React_005_FP3",
         live: "#",
       },
     },

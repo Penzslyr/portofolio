@@ -86,10 +86,11 @@ function App() {
       title: "Financial Management App",
       description:
         "A React Native application for financial tracking and management with secure authentication and real-time updates.",
+      image: "/path-to-project-image.jpg",
       tech: ["React Native", "Redux", "Node.js", "MongoDB"],
       links: {
-        github: "#",
-        live: "#",
+        github: "https://github.com/yourusername/project",
+        live: "https://project-demo.com",
       },
     },
     {
@@ -124,6 +125,19 @@ function App() {
     },
   ];
 
+  const socialLinks = [
+    {
+      name: "GitHub",
+      url: "https://github.com/Penzslyr",
+      icon: "github-icon",
+    },
+    {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/effendi-prakoso/",
+      icon: "linkedin-icon",
+    },
+  ];
+
   return (
     <>
       {isLoading ? (
@@ -142,7 +156,9 @@ function App() {
         <div className="portfolio">
           <nav className="nav">
             <a href="#about">About</a>
+            <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
             <a href="#education">Education</a>
             <a href="#contact">Contact</a>
           </nav>
@@ -278,6 +294,19 @@ function App() {
                 >
                   Schedule a Call
                 </a>
+              </div>
+              <div className="social-links">
+                {socialLinks.map((social) => (
+                  <a
+                    key={social.name}
+                    href={social.url}
+                    className="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {social.name}
+                  </a>
+                ))}
               </div>
             </div>
           </section>

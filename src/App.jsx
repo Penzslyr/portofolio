@@ -122,6 +122,16 @@ function App() {
         live: "#",
       },
     },
+    {
+      title: "AI Playlist Generator",
+      description:
+        "A React application that creates personalized playlists based on your mood, activity, and desired vibes.",
+      tech: ["React.js", "Deepseek with LM Studio"],
+      links: {
+        github: "https://github.com/Penzslyr/ai-playlist-generator",
+        live: "#",
+      },
+    },
   ];
 
   const socialLinks = [

@@ -55,7 +55,8 @@ function App() {
   ];
 
   const education = {
-    degree: "Bachelor of Computer Science - GPA 3.5",
+    degree: "Bachelor of Computer Science",
+    gpa: "3.58 / 4.00",
     school: "Universitas Atma Jaya Yogyakarta",
     duration: "Aug 2019 - Nov 2024",
   };
@@ -165,10 +166,8 @@ function App() {
         <div className="portfolio">
           <nav className="nav">
             <a href="#about">About</a>
-            <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
             <a href="#contact">Contact</a>
           </nav>
 
@@ -225,6 +224,7 @@ function App() {
             <div className="section-content">
               <div className="education-item">
                 <h3>{education.degree}</h3>
+                <p className="gpa">{education.gpa}</p>
                 <p className="school">{education.school}</p>
                 <p className="duration">{education.duration}</p>
               </div>
@@ -268,9 +268,11 @@ function App() {
                       <a href={project.links.github} className="project-link">
                         <span>GitHub</span>
                       </a>
-                      <a href={project.links.live} className="project-link">
-                        <span>Live Demo</span>
-                      </a>
+                      {project.links.live !== "#" ? (
+                        <a href={project.links.live} className="project-link">
+                          <span>Live Demo</span>
+                        </a>
+                      ) : null}
                     </div>
                   </div>
                 ))}

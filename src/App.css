@@ -89,7 +89,7 @@ body {
   backdrop-filter: blur(10px);
   padding: 1.5rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 2rem;
   z-index: 1000;
 }
@@ -421,8 +421,10 @@ body {
 
 @media (max-width: 768px) {
   .nav {
-    padding: 1rem;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    padding: 1rem;
     gap: 1rem;
   }
 

@@ -16,9 +16,9 @@ function App() {
       company: "Berijalan",
       duration: "Aug 2023 - Feb 2024",
       responsibilities: [
-        "Led development of key features for a financial application using React Native, ensuring high-quality code and optimal performance",
-        "Implemented complex UI components and integrated RESTful APIs while maintaining strict security standards",
-        "Successfully orchestrated the migration to React Native 0.73.1, improving app performance and user experience",
+        "Completed tasks assigned by the systems analyst.",
+        "Assisted in migrating React Native applications.",
+        "Utilized Jira for task management.",
       ],
     },
     {
@@ -26,10 +26,9 @@ function App() {
       company: "GoTo Impact Foundation",
       duration: "Jun 2023 - Oct 2023",
       responsibilities: [
-        "Mastered full-stack development utilizing the MERN stack, with emphasis on building scalable web applications",
+        "Learning full-stack development utilizing the MERN stack, with emphasis on building scalable web applications",
         "Enhanced professional communication skills through intensive English language training and team collaborations",
         "Applied Kaizen principles to optimize development workflows and improve code quality",
-        "Delivered multiple successful projects through effective team collaboration and agile methodologies",
       ],
     },
     {
@@ -38,17 +37,18 @@ function App() {
       duration: "Feb 2023 - Jun 2023",
       responsibilities: [
         "Acquired comprehensive expertise in modern development tools including TOADS, OutSystems, and Agile methodologies",
-        "Developed and deployed a full-featured employee assessment platform with integrated content management system",
-        "Engineered an interactive chatbot solution using React Native, implementing advanced UI/UX features and optimization",
+        "Developed and deployed a full-featured employee assessment platform focusing on frontend development using OutSystems",
+        "Getting used to the OutSystems and getting specialized training in React Native",
       ],
     },
     {
-      title: "Full Stack Development Study",
+      title: "Independent Study React and React Native by Hacktiv8",
       company: "Hacktiv8",
       duration: "Aug 2022 - Dec 2022",
       responsibilities: [
         "Developed strong fundamentals in modern web technologies including HTML5, CSS3, and JavaScript ES6+",
         "Implemented state management solutions using Redux for complex application architectures",
+        "Getting used to the React and React Native",
         "Led development of three major projects: a movie discovery platform, an e-commerce solution, and a hotel booking system, focusing on user experience and performance optimization",
       ],
     },
@@ -88,7 +88,7 @@ function App() {
       description:
         "A marketplace app with management system, where user can buy and sell product, and user can manage their product.",
       image: "/path-to-project-image.jpg",
-      tech: ["React Native", "Redux", "Node.js", "Tailwind"],
+      tech: ["React JS", "Redux", "Node.js", "Tailwind"],
       links: {
         github: "https://github.com/Penzslyr/SIB_React_005_FP2",
         live: "#",
@@ -98,7 +98,7 @@ function App() {
       title: "Website News ",
       description:
         "Website news where user can filter news by category, user can search news by title, and user can save news to favorite.",
-      tech: ["React.js", "Chakra UI", "Redux"],
+      tech: ["React JS", "Chakra UI", "Redux"],
       links: {
         github: "https://github.com/Penzslyr/SIB_React_005_FP1",
         live: "#",
@@ -107,7 +107,7 @@ function App() {
     {
       title: "Movie Discovery Platform",
       description: "Interactive movie search and discovery platform.",
-      tech: ["React.js", "Tailwind"],
+      tech: ["React JS", "Tailwind"],
       links: {
         github: "https://github.com/Penzslyr/SIB_React_005_FP4",
         live: "#",

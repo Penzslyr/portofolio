@@ -134,6 +134,16 @@ function App() {
         live: "#",
       },
     },
+    {
+      title: "Task API",
+      description:
+        "A RESTful API for managing tasks, with features for creating, updating, and deleting tasks, as well as for retrieving task details and status.",
+      tech: ["Node.js", "Express.js", "PostgreSQL", "TypeScript"],
+      links: {
+        github: "https://github.com/Penzslyr/TaskApi-express",
+        live: "#",
+      },
+    },
   ];
 
   const socialLinks = [
